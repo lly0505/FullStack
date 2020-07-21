@@ -13,5 +13,14 @@
 新建 `index.js` 入口文件
 配置 `scripts` 执行函数 `"serve": "nodomon index.js",`
 全局安装 `npm i -g nodemon`
+全局安装服务端模块，数据库连接工具，cors允许跨域
+`npm i express@next mongoose cors`
+
+# 后端模块
+安装 `npm i axios`
+
+`vue2-editor` 富文本编译中，图片上传使用的是贝斯64编码，当图片过大时，导致接口加载慢，耗时长。故使用图片上传接口；
+文件上传 必须使用 ` new formData() ` , 不能使用JSON 格式；
+
 
 
